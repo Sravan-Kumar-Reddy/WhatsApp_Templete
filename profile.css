@@ -1,0 +1,41 @@
+html,
+body,
+div,
+span {
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+    background:url(whats.jpg) no-repeat fixed center;
+  background-size: cover;
+}
+.pim{
+    padding:10% 25% 0 25%;
+    }/*Need a Background image*/
+
+    .page {
+        background: url(whatsapp.jpg) ;
+        box-shadow: 0px 10px 50px 5px blue;
+        border-radius: 10%;
+      position: relative;
+      overflow: hidden;
+      top: 19px;
+      height: calc(100% - 38px);
+      weight:: calc(100% - 38px);
+      margin: auto;
+      padding: 0;
+      box-shadow: 0 1px 1px 0 rgba(0, 0, 0, .06), 0 2px 5px 0 rgba(0, 0, 0, .2);
+    }
+    page-one {
+      background-color: #f7f7f7;
+      height: 100%;
+      overflow: hidden;
+      margin: 0;
+      padding: 0;
+      box-shadow: 0 1px 1px 0 rgba(0, 0, 0, .06), 0 2px 5px 0 rgba(0, 0, 0, .2);
+    }
